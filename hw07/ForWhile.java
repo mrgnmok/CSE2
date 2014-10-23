@@ -13,7 +13,7 @@ public class ForWhile {
             
             for( int rows = 1; rows <= numberHolder; rows++){  // second nested loops. deals with the number of characters per row (width).
                 
-                for( int width = numberHolder*2+1; width > 0; width--); { // third nested loop. helps program to change the count of the width so that the loop knows when to terminate.
+                for( int width = 1 + ((numberHolder-1) * 2); width > 0; width--) { // third nested loop. helps program to change the count of the width so that the loop knows when to terminate.
                     System.out.print(numberHolder);
                    
                 }
@@ -21,7 +21,7 @@ public class ForWhile {
           
             } 
             
-                for( int width = numberHolder*2+1; width > 0; width--); {
+                for( int width = numberHolder*2+1; width > 0; width--) {
                     System.out.print('-');
                    
                 } 
