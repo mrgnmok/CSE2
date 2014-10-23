@@ -39,7 +39,7 @@ public class NumberStack {
         } 
         
         System.out.println ("Using DoWhile loops");
-        
+          numberHolder=1;
          do {
             int rows = 1;
             do {
