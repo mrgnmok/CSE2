@@ -24,7 +24,7 @@ import java.util.Scanner;
         String gameString;
         switch (game) {
             case 1:  gameString = "Roulette";
-                     (int)(Math.random() * (37-0) + (0)
+                     int (Math.random() * (37-0) + (0))
             case 2:  gameString = "Craps";
                      break;
             case 3:  gameString = "Pick-a-card";

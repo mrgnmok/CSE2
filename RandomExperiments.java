@@ -8,22 +8,13 @@ public static void main (String [] args) {
 //NESTED LOOP PRACTICE:
 //WRITE A LOOP THAT JUST SHOWS ALL THE NUMBERS UNTIL 10.
 
-Scanner myScanner = new Scanner(System.in);
-System.out.println ("Enter a number from 1-10");
+int theMostPossible=2
+int limiter=0
+int rows = 0
+int width=0
 
-int userInput = myScanner.nextInt();
-int i=0;
-
-do {
-    System.out.println(i);
-    i++;
+while (limiter >0) {
+    System.out.print("b").
 }
-    while (i<=userInput);
-    }
-    
+        
 }
-
-
-
-
-
